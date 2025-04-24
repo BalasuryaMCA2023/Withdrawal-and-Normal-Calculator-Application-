@@ -1,3 +1,12 @@
-Withdrawal-and-Normal-Calculator-Application
+# React + Vite
 
-The react js application "Withdrawal-and-Normal-Calculator-Application" is in its early stages of development and is not yet ready for release. I am still working on the application, but the app will include a calculator. I plan for this to be an app that will help my mom, who has trouble remembering certain things, keep track of her withdrawals from the bank. Once I get the Withdrawal and Normal Calculator app ready, it will be easy to add more features to it.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

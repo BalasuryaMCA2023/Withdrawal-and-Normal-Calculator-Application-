@@ -1,0 +1,86 @@
+/* App.css */
+
+body {
+    background: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .landing-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .animated-title {
+    animation: fadeInDown 0.8s ease-out;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #003366;
+  }
+  
+  .calculator-area {
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .cardBox {
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .heading {
+    font-weight: 600;
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  .label {
+    font-weight: 500;
+    color: #34495e;
+  }
+  
+  .resultBox {
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-left: 4px solid #007bff;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .resultText {
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #2c3e50;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  @keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @media (max-width: 576px) {
+    .animated-title {
+      font-size: 1.8rem;
+    }
+  
+    .resultText {
+      font-size: 16px;
+    }
+  
+    .cardBox {
+      padding: 1rem;
+    }
+  }
+  
