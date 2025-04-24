@@ -30,7 +30,7 @@ const NormalCalculator = () => {
       return;
     }
 
-    const message = `🧮 Here's my calculation from Normal Calculator:\n\nExpression: ${expression}\nResult: ${result}\n\nTry it yourself: https://yourapp.example.com`;
+    const message = `🧮 Here's my calculation from Normal Calculator:\n\nExpression: ${expression}\nResult: ${result}\n\nTry it yourself: https://withdrawal-and-normal-calculator-application.vercel.app/`;
 
     if (navigator.share) {
       navigator.share({
